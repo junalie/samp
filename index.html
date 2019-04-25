@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Junalie Shop</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="bstrap3/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
+  <link rel="stylesheet" type="text/css" href="bstrap3/css/styles.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+ 
+  <div class="container-fluid row ">
+    <nav class="navbar navbar-default navbar-static-top pad-26 mb-0 row bcolor">
+      <a class="navbar-brand pad-0 pt-15 pl-130" href="#" >
+        <img alt="Brand" src="img/logo.png" height="30px">        
+      </a>       
+      <div class="input-group pt-15  pl-70">
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> All Categories <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">All Categories</a></li>                
+            <li><a href="#">Uncategorized</a></li>
+            <li><a href="#">Bridal</a></li>
+            <li><a href="#">Camellia</a></li>
+            <li><a href="#">Facials</a></li>
+            <li><a href="#">Manicure</a></li>
+            <li><a href="#">Skincare</a></li>
+            <li><a href="#">Trichology</a></li>
+          </ul>
+        </div><!-- /btn-group -->
+        <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn pr1">
+            <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search" aria-hidden="true">
+            </button>
+          </span>
+      </div><!-- /input-group -->         
+    </nav>
+    <nav class="navbar navbar-default pl-130 row pt-150 bcolor">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse pt" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown active pr-40 wid">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="navbar-link">Bridal</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" class="navbar-link">Camellia</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" class="navbar-link">Facials</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" class="navbar-link">Manicure</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" class="navbar-link">Skincare</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" class="navbar-link">Trichology</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" class="navbar-link">Uncategorized</a></li>
+              </ul>
+            </li>
+            <li class="dropdown pr-40 ">
+              <a href="index.html" class="dropbtn">HOME<span class="sr-only">(current)</span></a>
+                <div class="dropdown-content">
+                  <a href="#" class="navbar-link">Home 1</a>
+                  <a href="#" class="navbar-link">Home 2</a>
+                  <a href="#" class="navbar-link">Home 3</a>
+                  <a href="#" class="navbar-link">Home 4</a>
+                </div>
+            </li>      
+            <li class="dropdown pr-40 ">
+              <a href="shop-page.html" class="dropbtn">SHOP</a>
+                <div class="dropdown-content">
+                  <div class="col-md-6 border-right">
+                      <h6 class="navbar-link">SHOP PAGE</h6>
+                      <a href="#" class="navbar-link">My Account</a>
+                      <a href="#" class="navbar-link">My Cart</a>
+                      <a href="#" class="navbar-link">My Checkout</a>
+                      <a href="#" class="navbar-link">My Wishlist</a>
+                  </div>
+                  <div class="col-md-6">
+                      <h6 class="navbar-link">CATEGORY</h6>
+                      <a href="#" class="navbar-link">Skincare</a>
+                      <a href="#" class="navbar-link">Men's</a>
+                      <a href="#" class="navbar-link">Camelia</a>
+                      <a href="#" class="navbar-link">Facials</a>
+                      <a href="#" class="navbar-link">Trichology</a>
+                      <a href="#" class="navbar-link">Bridal</a>
+                  </div>
+                </div>
+            </li>          
+            <li class="pr-40"><a href="blog-page.html" class="navbar-link">BLOG</a></li>
+            <li class="pr-40"><a href="about-page.html" class="navbar-link">ABOUT US</a></li>
+            <li class="pr-40"><a href="contact-page.html" class="navbar-link">CONTACT</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+    <!-- carousel -->
+    <div class="row">
+      <div id="carousel-example-generic" class="carousel slide mt-60" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          
+          <div class="item active" style="position: relative; left: 0; top: 0;">
+            <img src="img/slide1.jpg" class="fishes">
+            <img src="img/slide2.png" class="fish imageLayers" height="50px">
+          </div>
+
+          <div class="item" style="position: relative; left: 0; top: 0; background-color: #f9d9d9">
+              <img src="img/slide3.png" class="fishes" >
+              <img src="img/slide4.jpg" class="fish2 " >
+            </div>
+         
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- banners -->
+    <div class="row col-md-12 padban">
+      <div class="col-md-3">
+        <img src="img/ban1.jpg" class="ban">
+      </div>
+      <div class="col-md-3 ">
+        <img src="img/ban2.jpg" class="ban"> 
+      </div>
+      <div class="col-md-3">
+        <img src="img/ban3.jpg" class="ban"> 
+      </div>
+      <div class="col-md-3">
+        <img src="img/ban4.jpg" class="ban"> 
+      </div>
+    </div>
+    <!-- featured products text -->
+    <div class="row padbottom2" align="center">
+      <c class="texts">Featured Products</c>
+      <p> Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum formas.</p>
+    </div>
+    <div class="row ">
+      <div class="col-md-6 ban2">
+        <img src="img/ban5.jpg" width="580px">
+      </div>
+      <div class="col-md-6 pl">
+        <div class="col-md-12 pb">
+          <h1 class="text1"><strong>30% SALE OFF</strong></h1>
+        </div>
+        <div class="row pr">
+          <div class="col-md-6">
+            <img src="img/ban6.jpg" class="img-thumbnail">
+            Juneberry Boutique<br>
+            $250.00<br>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          </div>
+          <div class="col-md-6">
+            <img src="img/ban7.jpg" class="img-thumbnail">
+            White Shiffon Short<br>
+            $62.00<br>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 ban3">
+        <img src="img/ban8.jpg" class="pb">
+        <div class="row pl2">            
+          <img src="img/ban9.jpg">
+        </div>
+      </div>
+      <div class="col-md-6 pl pr2">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/ban10.jpg" class="pb">
+          </div>
+
+          <div class="col-md-6">
+            <img src="img/ban11.jpg" class="pb">
+          </div>  
+        </div>
+        <div class="row pl2">
+          <img src="img/ban12.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- new products text -->
+    <div class="row padbottom2" align="center">
+      <c class="texts">New Products</c>
+      <p> Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum formas.</p>
+    </div>
+    <div class="row  padban2">
+      <div class="col-md-12 ">
+        <div class="col-md-3 shadow">
+          <img src="img/prod1.jpg" class="img-thumbnail">
+          Boutique De Paris<br>
+          $69.00<br>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        </div>
+        <div class="col-md-3">
+          <img src="img/prod2.jpg" class="img-thumbnail">
+          Clothing Palette<br>
+          <c1>$130.00</c1> $99.00<br>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        </div>
+        <div class="col-md-3">
+          <img src="img/prod3.jpg" class="img-thumbnail">
+          Juneberry Boutique<br>
+          $250.00<br>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        </div>
+        <div class="col-md-3">
+          <img src="img/prod4.jpg" class="img-thumbnail">
+          WHite Shiffon Short<br>
+          $62.00<br>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+    <!-- latest blog text -->
+    <div class="row padbottom2" align="center">
+      <c class="texts">Latest Blog</c>
+      <p> Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum formas.</p>
+    </div>
+
+    <div class="row">
+      <div id="carousel-example-generic" class="carousel slide mt-60" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="row padban4 col-md-12">
+              <div class="col-md-4">
+                <img src="img/1.jpg" width="370px" height="271px">   
+                <c class="text2">On the other hand, we denounce with righteous and dislike<br><br></c>
+                August 19, 2016<br>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos. Lorem ipsum dolor sit amet, consectetur...                
+              </div>
+              <div class="col-md-4 pl2">
+                <img src="img/2.jpg" width="370px" height="271px">
+                <c class="text2">Lorem ipsum is abiquitous versatile paragraphs you want<br><br></c>
+                August 19, 2016<br>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos. Lorem ipsum dolor sit amet, consectetur...
+              </div>
+              <div class="col-md-4 pl2">
+                <img src="img/3.jpg">
+                <c class="text2">Lorem ipsum was purposefully designed to have meaning<br><br></c>
+                July 31, 2016<br>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos. Lorem ipsum dolor sit amet, consectetur...
+              </div>
+            </div>
+          </div>           
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <hr class="padbottom2">
+     <div class="row padbottom2" align="center">
+      <c class="texts">Newsletter</c>
+      <p class="padbottom2"> Subscribe to our newsletter now and stay up to date with new collections, the latest lookbooks and exclusive offers.</p>
+      <div class="input-group col-md-5">
+        <input type="text" class="form-control " placeholder="Enter your email address here..." title="Enter your email address here...">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Submit</button>
+        </span>
+      </div><!-- /input-group -->
+    </div>
+
+
+    <!-- footer -->
+    <div class=" row pl-155 clr pt-150">
+      <footer>  
+          <div class="col-md-3">
+            <h6 class="about">
+              <strong>ABOUT US</strong>
+            </h6>
+            <p class="texts3">
+            <span class="glyphicon glyphicon-map-marker"></span>
+              Address: Trafford Centre, London<br>
+            <span class="glyphicon glyphicon-earphone"></span>
+              Phone: +00 123 456 789<br>
+            <span class="glyphicon glyphicon-envelope"></span>
+              E-mail: info@demo.com<br>
+            </p>
+           
+          </div>
+          <div class="col-md-2 pl-80">
+            <h6 class="about">
+              <strong>MY ACCOUNT</strong>
+            </h6>
+            <p>
+              My Account <br>
+              My Wishlist   <br>
+              My Orders   <br>
+              Order Tracking <br>
+              Shipping Info   <br>
+            </p>
+           
+          </div>    
+          <div class="col-md-2 pl-51">
+            <h6 class="about">
+              <strong>MY SERVICES</strong>
+            </h6>
+            <p>
+              Order History <br>
+              Personal Information   <br>
+              Check Out   <br>
+              Shipping Cart<br>
+              Login/Register<br>
+            </p>
+           
+          </div>        
+          <div class="col-md-3 pl-51">
+            <h6 class="about">
+              <strong>GALLERY</strong>
+            </h6>
+            <div class="col-md-4 ">
+              <img src="img/gal1.jpg" width="100px">
+              <img src="img/1.jpg" width="100px">
+            </div>
+            <div class="col-md-4">
+              <img src="img/gal2.jpg"width="100px">
+              <img src="img/gal4.jpg"width="100px">
+            </div>
+            <div class="col-md-4">
+              <img src="img/gal3.jpg"width="100px" height="56px">
+              <img src="img/2.jpg"width="100px" height="56px">
+            </div>
+           
+          </div>
+      </footer>
+    </div>   
+  </div>
+   
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
